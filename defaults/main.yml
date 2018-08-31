@@ -41,6 +41,7 @@ openvpn_addl_client_options: []
 
 # Used in firewalld
 firewalld_default_interface_zone: public
+openvpn_firewalld_tun_zone: work
 
 # LDAP configuration
 openvpn_use_ldap: false
